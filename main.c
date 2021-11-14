@@ -9,12 +9,20 @@
 #include "Exercice8Serie1.h"
 
 void	main(){
+	printf("***** EXERCICE 1 SERIE 1 *****\n");
 	Ex1();
+	printf("***** EXERCICE 2 SERIE 1 *****\n");
 	Ex2();
+	printf("***** EXERCICE 3 SERIE 1 *****\n");
 	Ex3();
+	printf("***** EXERCICE 4 SERIE 1 *****\n");
 	Ex4();
+	printf("***** EXERCICE 5 SERIE 1 *****\n");
 	Ex5();
+	printf("***** EXERCICE 6 SERIE 1 *****\n");
 	Ex6();
+	printf("***** EXERCICE 7 SERIE 1 *****\n");
 	Ex7();	
+	printf("***** EXERCICE 8 SERIE 1 *****\n");
 	Ex8();
 }

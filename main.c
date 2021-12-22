@@ -1,7 +1,9 @@
+#include <time.h>
 #include <ctype.h>
 #include <math.h>
 #include <stdbool.h>
 #include <stdio.h>
+#include <stdlib.h>
 #include "Exercise1Serie1.h"
 #include "Exercise2Serie1.h"
 #include "Exercise3Serie1.h"
@@ -20,6 +22,7 @@
 #include "Exercise8Serie2.h"
 #include "Exercise9Serie2.h"
 #include "Serie2nd.h"
+#include "Serie3.h"
 
 void	main(){
 	int ex, serie;
@@ -81,6 +84,19 @@ void	main(){
 		}
 		else printf("Typing error...\n");
 	}
+	else if(serie == 3){
+                printf("Now choose the Exercise number...\n");
+                scanf("%d", &ex);
+                printf("***** Your choice is : Exercise %d in Serie %d : *****\n", ex, serie);
+                if(ex == 1)Ex1S3();
+                else if(ex == 2)Ex2S3();
+                else if(ex == 3)Ex3S3();
+                else if(ex == 4)Ex4S3();
+                else if(ex == 5)Ex5S3();
+                else if(ex == 6)Ex6S3();
+                else if(ex == 7)Ex7S3();
+                else printf("Exercice not found...\n");
+        }
 	else printf("Serie not found...\n");
 	}
 }
